@@ -9,10 +9,16 @@ import XCTest
 
 class WatchTesterApp_WatchKit_AppUITests: XCTestCase {
     
-    let app = XCUIApplication()
+    let timeout: TimeInterval = 60 * 60 * 24
+    
+    private var expectation: XCTestExpectation?
+    
+    private let app = XCUIApplication()
     
     override func setUp() {
         super.setUp()
+        
+        expectation = XCTestExpectation(description: "All tests are finished.")
         
         continueAfterFailure = false
        
@@ -22,6 +28,6 @@ class WatchTesterApp_WatchKit_AppUITests: XCTestCase {
     func testLaunc() {
         print("App should launch")
         app.buttons["start"].tap()
-        //
+        wait(for: [expectation!], timeout: timeout)
     }
 }
