@@ -22,5 +22,6 @@ class WatchTesterApp_WatchKit_AppUITests: XCTestCase {
     func testLaunc() {
         print("App should launch")
         app.buttons["start"].tap()
+        //
     }
 }
