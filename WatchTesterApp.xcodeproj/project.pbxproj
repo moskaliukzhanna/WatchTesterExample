@@ -25,6 +25,7 @@
 		20838A232716E1A0000ABC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20838A222716E1A0000ABC6B /* Assets.xcassets */; };
 		20838A2E2716E1A0000ABC6B /* WatchTesterApp_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20838A2D2716E1A0000ABC6B /* WatchTesterApp_WatchKit_AppTests.swift */; };
 		20838A392716E1A0000ABC6B /* WatchTesterApp_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20838A382716E1A0000ABC6B /* WatchTesterApp_WatchKit_AppUITests.swift */; };
+		20838A552716E765000ABC6B /* TestInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20838A542716E765000ABC6B /* TestInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		20838A342716E1A0000ABC6B /* WatchTesterApp WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchTesterApp WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20838A382716E1A0000ABC6B /* WatchTesterApp_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTesterApp_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		20838A3A2716E1A0000ABC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20838A542716E765000ABC6B /* TestInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 			children = (
 				20838A1C2716E19F000ABC6B /* InterfaceController.swift */,
 				20838A1E2716E19F000ABC6B /* ExtensionDelegate.swift */,
+				20838A542716E765000ABC6B /* TestInterfaceController.swift */,
 				20838A202716E19F000ABC6B /* ComplicationController.swift */,
 				20838A222716E1A0000ABC6B /* Assets.xcassets */,
 				20838A242716E1A0000ABC6B /* Info.plist */,
@@ -554,6 +557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20838A1F2716E19F000ABC6B /* ExtensionDelegate.swift in Sources */,
+				20838A552716E765000ABC6B /* TestInterfaceController.swift in Sources */,
 				20838A1D2716E19F000ABC6B /* InterfaceController.swift in Sources */,
 				20838A212716E19F000ABC6B /* ComplicationController.swift in Sources */,
 			);

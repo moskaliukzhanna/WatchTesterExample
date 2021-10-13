@@ -1,5 +1,5 @@
 //
-//  InterfaceController.swift
+//  TestInterfaceController.swift
 //  WatchTesterApp WatchKit Extension
 //
 //  Created by Zhanna Moskaliuk on 13.10.2021.
@@ -9,23 +9,22 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class TestInterfaceController: WKInterfaceController {
 
-    @IBOutlet weak var startButton: WKInterfaceButton!
-    
     override func awake(withContext context: Any?) {
-        startButton.setAccessibilityIdentifier("start")
+        super.awake(withContext: context)
+        
+        // Configure interface objects here.
     }
-    
+
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
+        super.willActivate()
     }
-    
+
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
+        super.didDeactivate()
     }
-    @IBAction func goToNextScreen() {
-        pushController(withName: "TestInterfaceController", context: nil)
-    }
-    
+
 }
