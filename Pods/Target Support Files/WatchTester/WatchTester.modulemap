@@ -1,0 +1,6 @@
+framework module WatchTester {
+  umbrella header "WatchTester-umbrella.h"
+
+  export *
+  module * { export * }
+}
