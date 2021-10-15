@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="18122" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch44"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="18022"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchTesterApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Go to table" id="fHf-2Q-r94">
+                            <connections>
+                                <action selector="goToTable" destination="AgC-eL-Hgc" id="k6E-Tz-dkq"/>
+                            </connections>
+                        </button>
+                        <imageView width="70" height="70" alignment="center" contentMode="scaleAspectFill" id="Eem-1g-FYl"/>
+                    </items>
+                    <connections>
+                        <outlet property="kittyImg" destination="Eem-1g-FYl" id="FbO-l5-46f"/>
+                        <outlet property="tableButton" destination="fHf-2Q-r94" id="x6b-lV-EBV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-166" y="-9"/>
+        </scene>
+        <!--EventTableInterfaceController-->
+        <scene sceneID="aYz-JN-ved">
+            <objects>
+                <controller identifier="EventTableInterfaceController" id="lsC-WB-QFj" customClass="EventTableInterfaceController" customModule="WatchTesterApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="q4u-AI-bLF">
+                            <items>
+                                <tableRow identifier="AWCell" id="und-vy-Po8" customClass="AWEventRowController" customModule="WatchTesterApp_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" height="45" alignment="left" id="MOz-jH-5ym">
+                                        <items>
+                                            <separator alignment="left" id="19l-3x-hS4">
+                                                <color key="color" red="0.50113185709999997" green="1" blue="0.44932129570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </separator>
+                                            <group width="110" alignment="left" layout="vertical" id="cRI-qh-ZfD">
+                                                <items>
+                                                    <group alignment="left" id="BQe-PM-AFZ">
+                                                        <items>
+                                                            <label alignment="left" text="Label" id="WMJ-yd-hni"/>
+                                                        </items>
+                                                    </group>
+                                                    <group width="1" alignment="left" id="e2b-Ci-KQL">
+                                                        <items>
+                                                            <label alignment="left" text="Test Event" id="jXH-N8-8zB"/>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                            <group width="37" height="43" alignment="right" verticalAlignment="center" contentMode="scaleAspectFit" layout="vertical" id="dtB-Qz-e7J">
+                                                <items>
+                                                    <imageView width="40" height="40" alignment="center" verticalAlignment="center" image="snow" catalog="system" contentMode="scaleAspectFill" id="RQo-X5-ejr">
+                                                        <color key="tintColor" red="0.50113185709999997" green="1" blue="0.44932129570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </imageView>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="mainImage" destination="RQo-X5-ejr" id="gVW-81-qbx"/>
+                                        <outlet property="mainSeparator" destination="19l-3x-hS4" id="sG3-cL-nuj"/>
+                                        <outlet property="subtitleLabel" destination="jXH-N8-8zB" id="fxb-Cw-7SJ"/>
+                                        <outlet property="titleLabel" destination="WMJ-yd-hni" id="4II-Er-rq8"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="q4u-AI-bLF" id="iMn-H3-tKl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-150.04347826086956" y="333.92857142857144"/>
+        </scene>
+        <!--EventInterfaceController-->
+        <scene sceneID="yuo-qz-1Zh">
+            <objects>
+                <controller identifier="EventInterfaceController" id="2My-Xn-j3e" customClass="EventInterfaceController" customModule="WatchTesterApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="80" height="80" alignment="center" image="snow" catalog="system" contentMode="scaleAspectFill" id="Ogf-CF-hxP">
+                            <color key="tintColor" red="0.61610432469999998" green="1" blue="0.52640643990000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </imageView>
+                        <label height="20" alignment="center" text="Label" id="m0a-5H-0Qd"/>
+                        <label alignment="center" text="Label" id="JkT-dh-jJV"/>
+                    </items>
+                    <connections>
+                        <outlet property="eventCategory" destination="m0a-5H-0Qd" id="tAK-HJ-yOf"/>
+                        <outlet property="eventImage" destination="Ogf-CF-hxP" id="9XB-me-BjG"/>
+                        <outlet property="eventLabel" destination="JkT-dh-jJV" id="TUP-0P-fAf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="83.521739130434781" y="333.92857142857144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="snow" catalog="system" width="124" height="128"/>
+    </resources>
+</document>

@@ -27,7 +27,7 @@ class WatchTesterApp_WatchKit_AppUITests: XCTestCase {
 
     func testLaunc() {
         print("App should launch")
-        app.buttons["start"].tap()
+//        app.buttons["start"].tap()
         wait(for: [expectation!], timeout: timeout)
     }
 }

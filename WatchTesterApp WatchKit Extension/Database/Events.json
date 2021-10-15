@@ -1,0 +1,74 @@
+[
+    {
+        "name": "1",
+        "category": "Vacation",
+        "endDate": "2.10.2019."
+    },
+    {
+        "name": "2",
+        "category": "Study",
+        "endDate": "31.10.2019."
+    },
+    {
+        "name": "3",
+        "category": "Study",
+        "endDate": "21.10.2019."
+    },
+    {
+        "name": "4",
+        "category": "Study",
+        "endDate": "23.10.2020."
+    },
+    {
+        "name": "5",
+        "category": "Birthday",
+        "endDate": "23.01.2021."
+    },
+    {
+        "name": "6",
+        "category": "Birthday",
+        "endDate": "25.11.2019."
+        
+    },
+    {
+        "name": "7",
+        "category": "Vacation",
+        "endDate": "NO THIS IS.."
+    },
+    {
+        "name": "8",
+        "category": "Vacation",
+        "endDate": "21.11.2019."
+    },
+    {
+        "name": "9",
+        "category": "Vacation",
+        "endDate": "23.11.2019."
+    },
+    {
+        "name": "10",
+        "category": "Vacation",
+        "endDate": "25.11.2019."
+    },
+    {
+       "name": "11",
+        "category": "Event",
+        "endDate": "01.12.2019."
+    },
+    {
+        "name": "12",
+        "category": "Vacation",
+        "endDate": "13.12.2019."
+    },
+    {
+        "name": "13",
+        "category": "Birthday",
+        "endDate": "01.03.2020."
+        
+    },
+    {
+       "name": "14",
+        "category": "Vacation",
+        "endDate": "04.08.2020."
+    }
+]
