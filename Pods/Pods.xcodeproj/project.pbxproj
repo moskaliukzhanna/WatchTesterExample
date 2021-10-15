@@ -7,59 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01EA0313BC4029BE38CA736230BFA85C /* Pods-WatchTesterApp WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5383DC729A11A4A781C3EACFA1705 /* Pods-WatchTesterApp WatchKit App-dummy.m */; };
-		06B00CDAA184A37A83B37097546CA2F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93686EB5C200EBBAB1BD574B60F53826 /* Foundation.framework */; };
-		0B32936B32B2B5728BCEABBB9AE9EB44 /* Pods-WatchTesterApp-WatchTesterAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522B61F0283770DB67E7F4644746510 /* Pods-WatchTesterApp-WatchTesterAppUITests-dummy.m */; };
-		0F67BADDDA032072B2C269D848759E99 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F79E08284E54F47E748E6A7DB60E46D /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-dummy.m */; };
-		151F1686FDBF125895834CA22076110E /* CGGraphics+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5680D2CE14413878A85C47DE238BD /* CGGraphics+Helpers.swift */; };
-		361468A6037DC3DFC8111035CCD0A097 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F417B3292FAFDB2365F4A33C0BAD90 /* XCTest.framework */; };
-		452F772E7B3DAB5049B39C89999EB214 /* XCUIElement+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5ED6DD399F26C97DFF245D134F02E5 /* XCUIElement+Helpers.swift */; };
-		47731EBDD8F09CBAB73CF1A590B2FACC /* Pods-WatchTesterAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D43ADC7D1FB0FDF0DD91FF8570ABB10 /* Pods-WatchTesterAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B0C1D6C1359F2CAC3BA5F6C1CAF89D4 /* UITester.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C334FD8D6459725C9D1D01E074B02 /* UITester.swift */; };
-		508025AF6771B3C5398FA1666ECF002F /* WebSocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B58EC145D27E53125A45E69CF3402 /* WebSocketTypes.swift */; };
-		5D066196CDB1B8358FB3592D9A1F7CA5 /* WatchCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55F457A54BCA4C1CB164874CF2AB4F /* WatchCommandResponse.swift */; };
-		66A269A9F0530D8D969D1F4F5C9D2AC6 /* WatchTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC10DA2F79CBD129FC67F70E79AED266 /* WatchTester.swift */; };
-		69B001F82C3EC9FAE142AA1B6E52B572 /* Pods-WatchTesterApp WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA042FC3DA5083B6F25CEBADFE38BB1 /* Pods-WatchTesterApp WatchKit Extension-dummy.m */; };
-		6AD58F5E904FFED684B0ABFC54F6F604 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D40179F4B72B93062ADD2579201D6DF9 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E042A869548BE523A183E83CBE07460 /* Pods-WatchTesterApp WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC98E34540C68FFDB7A8C65F07393920 /* Pods-WatchTesterApp WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E8ADB99649BC10CB00C93703872B0B9 /* Pods-WatchTesterApp WatchKit AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE76954E6269062B0B5436BD69E191E4 /* Pods-WatchTesterApp WatchKit AppTests-dummy.m */; };
-		6FCE5DEA8E8469FA0598793060B15F9B /* Pods-WatchTesterApp-WatchTesterAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B92FD9649D5AF77DEDEB35EB855592 /* Pods-WatchTesterApp-WatchTesterAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7075F394EE06D541356274747EB8B7B5 /* Pods-WatchTesterApp WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE7CE516F0F12248F4E8D2432419ECA /* Pods-WatchTesterApp WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74D8554B7D5A45040153BABADE5D1451 /* WatchTester-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30749A0FE9075ACB19C6ED9E5730B190 /* WatchTester-dummy.m */; };
-		7B05C5990550E464F8606B7AF5C64617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93686EB5C200EBBAB1BD574B60F53826 /* Foundation.framework */; };
-		7EAD073745CE486C70F4478420D3C915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534723A21DBD84534FE401AD12F0645 /* Foundation.framework */; };
-		86E286460D75BE3D2F2D54A3C30FC338 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F177D713E873998DD9D5448C3DB0D9 /* WebSocketManager.swift */; };
-		885692799C73DEF52FAFCB396D311556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93686EB5C200EBBAB1BD574B60F53826 /* Foundation.framework */; };
-		8E0D36E16B8E7D5B71213ABBE79E78E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534723A21DBD84534FE401AD12F0645 /* Foundation.framework */; };
-		9548A99AED142E549EA5CEBE692FF2AB /* XCUIElement+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ED37D8FF26A9AA0D9060B720437BB6 /* XCUIElement+Scroll.swift */; };
-		970B54C3F772AB325217102F98955DB6 /* Pods-WatchTesterAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CA1AD351E480669155FA25653CFC3 /* Pods-WatchTesterAppTests-dummy.m */; };
-		A27EE09619987F35A5E280A8DC78D90A /* WatchTester-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F55C93E74735E04A625B1854366C30 /* WatchTester-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA0B82129E7F7B5FBDB986A70467CC30 /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03988BDFAAD6F51E2A1375616291E65E /* XCTestCase.swift */; };
-		B6660BB748F65B9CC6E03E09F80A1169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93686EB5C200EBBAB1BD574B60F53826 /* Foundation.framework */; };
-		BA710DBF4EB481C86B0E2BAB5B8C9451 /* Pods-WatchTesterApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF65AC0D9DC1825C48BED9B04904369 /* Pods-WatchTesterApp-dummy.m */; };
-		BCDD56B1A89868D5C118A8B3BE70D0F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93686EB5C200EBBAB1BD574B60F53826 /* Foundation.framework */; };
-		C4552C86D630AF9C68DC6F90517E0DD8 /* Pods-WatchTesterApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 920549714AE0A6145D7B652B292A51C8 /* Pods-WatchTesterApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5F91D1AE29AEC1FF9E3C38F03C57605 /* Pods-WatchTesterApp WatchKit AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAC28944FD031AFE36DAC986F506A5C /* Pods-WatchTesterApp WatchKit AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCD5EF817E25BDBE0755C87AD729DF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4534723A21DBD84534FE401AD12F0645 /* Foundation.framework */; };
-		E43B2D31F7D181E41FA461108EDD0511 /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A7EB5C41366BD948C4FADCACD96C62 /* Executor.swift */; };
+		1140BA4B4585EEDEA5311ABFFA61E8EF /* WatchTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FB23A931C37EF95189040BD6D5343F /* WatchTester.swift */; };
+		15524F902F62823BDE81A1AD4FCBEE0E /* UITester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2751FDD95A9E72C9C90FDAD36894B781 /* UITester.swift */; };
+		89708E4234B3EF87FE3DCBD73078A13B /* WebSocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56898815B789724280200BF7C94C5F7 /* WebSocketTypes.swift */; };
+		9FB93755A1CCED5C884B390650607D31 /* WatchTester-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD71CF341C8173D831460A53E92D83 /* WatchTester-dummy.m */; };
+		A9A61ADF017385F2D2B17E1882F2DD4F /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F63A7200AFEAA848FF7EC62D3B514 /* Executor.swift */; };
+		AA2851AA275CB9BC4CCD580CD7D22B06 /* WatchTester-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C5360A88937597EAA42ADC5C23D6CB /* WatchTester-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C046105749F377E46D465B3EA29AABEE /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6204AC04A06EC434DB785A6477EFF1 /* WebSocketManager.swift */; };
+		CA4D382D43B7D934D4A86325304508EA /* XCUIElement+Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDA4EC21844B0474CFE253B46F073A /* XCUIElement+Scroll.swift */; };
+		D001B1F61AC64E42532549D9018680DD /* WatchCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B7AEBD3B3CC426359F3DDA9B7488A /* WatchCommandResponse.swift */; };
+		D3A28EA97AD665B32E1A481DD8577153 /* CGGraphics+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A351AD889299F049EF5F992335998 /* CGGraphics+Helpers.swift */; };
+		EC3CC38742A63815909DE12E0FB12C90 /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F57EFEEA56099D1CCEDCBC9DC378C /* XCTestCase.swift */; };
+		EDBCD21A0E2A1129108C9A4C48F709BF /* Pods-WatchTesterApp WatchKit AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D540F53F9359EC346D37325FE68D95A /* Pods-WatchTesterApp WatchKit AppUITests-dummy.m */; };
+		EEAC14077E7292CA2ACABB7C452E950D /* Pods-WatchTesterApp WatchKit AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD5D8DCBF6780D838135AB574BE729B /* Pods-WatchTesterApp WatchKit AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD028554B552CA0263F13F1BB600B28F /* XCUIElement+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD9635BEEF77EADACDA46587213B70 /* XCUIElement+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83ADEAF0282C0D69E6EAC89B1C0E47D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 134FDF9FC1FDCFC5A88BD4ED956B8383;
-			remoteInfo = "Pods-WatchTesterApp WatchKit App";
-		};
-		AF055D5164C972AE845DF8EA64BFCC6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9098376E72528457600A7CCB50F6921;
-			remoteInfo = "Pods-WatchTesterApp";
-		};
-		F962DC3DB432FE42876A169EF96F11DE /* PBXContainerItemProxy */ = {
+		13B59443ED68AAC5068E0FA6412B9D28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -69,342 +34,123 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013C702DA2E1E6142E4B3A072CF3250A /* Pods-WatchTesterApp WatchKit AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterApp WatchKit AppTests.modulemap"; sourceTree = "<group>"; };
-		03988BDFAAD6F51E2A1375616291E65E /* XCTestCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCTestCase.swift; path = WatchTester/XCTestCase.swift; sourceTree = "<group>"; };
-		082788FFD3B6968C89A744B0FF36F6E4 /* WatchTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.debug.xcconfig; sourceTree = "<group>"; };
-		0CEB4A676C45397430F0E889D246C08E /* Pods-WatchTesterAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		0DAC28944FD031AFE36DAC986F506A5C /* Pods-WatchTesterApp WatchKit AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterApp WatchKit AppTests-umbrella.h"; sourceTree = "<group>"; };
-		0EDFA6AB194738322206EE9A1D6D2AD4 /* Pods-WatchTesterAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterAppTests-Info.plist"; sourceTree = "<group>"; };
-		1155BF87056608E95D222CBE742F8EE7 /* Pods-WatchTesterApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1C8B5070C3F699C4BB24FDCA3A9A6E6F /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		209DA0CD11109C74B2E3584B6B9E4089 /* Pods-WatchTesterApp WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterApp WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22F55C93E74735E04A625B1854366C30 /* WatchTester-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-umbrella.h"; sourceTree = "<group>"; };
-		25F72DD47E2B609659B80C6E6ACA361A /* Pods-WatchTesterApp WatchKit Extension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterApp WatchKit Extension"; path = Pods_WatchTesterApp_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C0FEC2CEE448BA7490609EE8F1E446F /* Pods-WatchTesterApp WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterApp WatchKit App.modulemap"; sourceTree = "<group>"; };
-		2DABD249AAA3D552FDBCFACE744D57B1 /* Pods-WatchTesterAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterAppTests.modulemap"; sourceTree = "<group>"; };
-		2F55F457A54BCA4C1CB164874CF2AB4F /* WatchCommandResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchCommandResponse.swift; path = WatchTester/WatchCommandResponse.swift; sourceTree = "<group>"; };
-		30749A0FE9075ACB19C6ED9E5730B190 /* WatchTester-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchTester-dummy.m"; sourceTree = "<group>"; };
-		33A8F14B03E9C26A2A092C7B67E9A472 /* Pods-WatchTesterApp WatchKit AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit AppTests-Info.plist"; sourceTree = "<group>"; };
-		366FF35544F984EAB4801DADB5B9506B /* WatchTester.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WatchTester.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3BCD6F4CF2438FDA3C65FDC4420F04FB /* Pods-WatchTesterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp.debug.xcconfig"; sourceTree = "<group>"; };
-		3CA042FC3DA5083B6F25CEBADFE38BB1 /* Pods-WatchTesterApp WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterApp WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
-		3D43ADC7D1FB0FDF0DD91FF8570ABB10 /* Pods-WatchTesterAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterAppTests-umbrella.h"; sourceTree = "<group>"; };
-		3E401CB6B5E9E3D73DC7A661A685D0AF /* Pods-WatchTesterApp WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		4522B61F0283770DB67E7F4644746510 /* Pods-WatchTesterApp-WatchTesterAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterApp-WatchTesterAppUITests-dummy.m"; sourceTree = "<group>"; };
-		4534723A21DBD84534FE401AD12F0645 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		49DB31ACD87061729CEC9BA2055211DD /* Pods-WatchTesterApp WatchKit AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterApp WatchKit AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4E1088A9BDEEA3126F1052A975663391 /* Pods-WatchTesterApp WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
-		50E75E38D73BB878F5538672D5C01E92 /* Pods-WatchTesterApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterApp.modulemap"; sourceTree = "<group>"; };
-		58988C3684C5EAB1D6E68FB2A9B010F8 /* Pods-WatchTesterApp-WatchTesterAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp-WatchTesterAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5CEEF63A6ADF46C098684740EC733CAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5EF65AC0D9DC1825C48BED9B04904369 /* Pods-WatchTesterApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterApp-dummy.m"; sourceTree = "<group>"; };
-		5F956B0FCD4592439598E0B8B300AC76 /* Pods-WatchTesterApp-WatchTesterAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterApp-WatchTesterAppUITests"; path = Pods_WatchTesterApp_WatchTesterAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6238FA23CA5A6599380887201A903992 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		678B58EC145D27E53125A45E69CF3402 /* WebSocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketTypes.swift; path = WatchTester/WebSocketTypes.swift; sourceTree = "<group>"; };
-		6B8CA1AD351E480669155FA25653CFC3 /* Pods-WatchTesterAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterAppTests-dummy.m"; sourceTree = "<group>"; };
-		6F79E08284E54F47E748E6A7DB60E46D /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-dummy.m"; sourceTree = "<group>"; };
-		77453252CCE4C2127C4C99754BB5A3A9 /* Pods-WatchTesterApp WatchKit AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		7BE0F6046BD297F1D7B1B37F24D94844 /* Pods-WatchTesterApp-WatchTesterAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp-WatchTesterAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		83E07044B197B7D85311441CE0C06518 /* Pods-WatchTesterApp WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		89A5680D2CE14413878A85C47DE238BD /* CGGraphics+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGGraphics+Helpers.swift"; path = "WatchTester/CGGraphics+Helpers.swift"; sourceTree = "<group>"; };
-		8A01226450CBF23F25019C119E4450B1 /* Pods-WatchTesterApp WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		8D616084B612A0BD00499C43425B1E4A /* WatchTester-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-prefix.pch"; sourceTree = "<group>"; };
-		91F5383DC729A11A4A781C3EACFA1705 /* Pods-WatchTesterApp WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterApp WatchKit App-dummy.m"; sourceTree = "<group>"; };
-		920549714AE0A6145D7B652B292A51C8 /* Pods-WatchTesterApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterApp-umbrella.h"; sourceTree = "<group>"; };
-		93686EB5C200EBBAB1BD574B60F53826 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		94D8EFD912EF80171457DE0C093680B1 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		963F98ADB222A5AC95E4ECBF90AE07A3 /* Pods-WatchTesterApp WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit App-Info.plist"; sourceTree = "<group>"; };
-		97F417B3292FAFDB2365F4A33C0BAD90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		98324D626B69FAE129B922ADA6B50C9F /* WatchTester.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WatchTester.modulemap; sourceTree = "<group>"; };
-		9AF97CFA33D7AB879E4B661D0D0A4563 /* Pods-WatchTesterApp-WatchTesterAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterApp-WatchTesterAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CDED496E00EE2C9145554F121757152 /* Pods-WatchTesterApp WatchKit AppUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-WatchTesterApp WatchKit AppUITests"; path = "libPods-WatchTesterApp WatchKit AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AADEEFB01407091EED1792D11513D /* WatchTester.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WatchTester.modulemap; sourceTree = "<group>"; };
+		1BED489D89D216EFD604142C3F595C53 /* Pods-WatchTesterApp WatchKit AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterApp WatchKit AppUITests.modulemap"; sourceTree = "<group>"; };
+		1D2F57EFEEA56099D1CCEDCBC9DC378C /* XCTestCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCTestCase.swift; path = WatchTester/XCTestCase.swift; sourceTree = "<group>"; };
+		21C5360A88937597EAA42ADC5C23D6CB /* WatchTester-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-umbrella.h"; sourceTree = "<group>"; };
+		2751FDD95A9E72C9C90FDAD36894B781 /* UITester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITester.swift; path = WatchTester/UITester.swift; sourceTree = "<group>"; };
+		31AD9635BEEF77EADACDA46587213B70 /* XCUIElement+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElement+Helpers.swift"; path = "WatchTester/XCUIElement+Helpers.swift"; sourceTree = "<group>"; };
+		39FB23A931C37EF95189040BD6D5343F /* WatchTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchTester.swift; path = WatchTester/WatchTester.swift; sourceTree = "<group>"; };
+		3E5B7AEBD3B3CC426359F3DDA9B7488A /* WatchCommandResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchCommandResponse.swift; path = WatchTester/WatchCommandResponse.swift; sourceTree = "<group>"; };
+		4CFD71CF341C8173D831460A53E92D83 /* WatchTester-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchTester-dummy.m"; sourceTree = "<group>"; };
+		4F02A5D3906D8B137F391BF5E75AF9AE /* Pods-WatchTesterApp WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D454D40027C4316775450A12074D067 /* Pods-WatchTesterApp WatchKit AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterApp WatchKit AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		750F63A7200AFEAA848FF7EC62D3B514 /* Executor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Executor.swift; path = WatchTester/Executor.swift; sourceTree = "<group>"; };
+		7EB417EAB66B1823DE97F8CC5F6522BA /* WatchTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.release.xcconfig; sourceTree = "<group>"; };
+		8D540F53F9359EC346D37325FE68D95A /* Pods-WatchTesterApp WatchKit AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterApp WatchKit AppUITests-dummy.m"; sourceTree = "<group>"; };
+		939856C861FF03AFC16F66476C3204E2 /* WatchTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EE7CE516F0F12248F4E8D2432419ECA /* Pods-WatchTesterApp WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterApp WatchKit App-umbrella.h"; sourceTree = "<group>"; };
-		A00936E75F4B097B2E36021133AF602E /* Pods-WatchTesterApp WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterApp WatchKit Extension.modulemap"; sourceTree = "<group>"; };
-		A0659EC049DCF4C1AEEE850358F5CDC2 /* Pods-WatchTesterApp-WatchTesterAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp-WatchTesterAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A448DCA1824067139FFEC0094A4DEDDC /* WatchTester */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WatchTester; path = WatchTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A842E6C17E4AC544021C41338619E77D /* Pods-WatchTesterApp-WatchTesterAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterApp-WatchTesterAppUITests.modulemap"; sourceTree = "<group>"; };
-		A8A7EB5C41366BD948C4FADCACD96C62 /* Executor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Executor.swift; path = WatchTester/Executor.swift; sourceTree = "<group>"; };
-		A926D4857A2C1E523A1305FCDD23C90C /* Pods-WatchTesterApp-WatchTesterAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp-WatchTesterAppUITests-Info.plist"; sourceTree = "<group>"; };
-		AA12B3A4E1196AC8FE41C82F7885C43C /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.modulemap"; sourceTree = "<group>"; };
-		AA81CCF95424F01469217E74250C9A74 /* Pods-WatchTesterApp WatchKit AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit AppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA9A7BB4D9C7CAC7DE89BD3FB0E0ADDC /* Pods-WatchTesterApp WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB3B2182617CBA0B307523491916232A /* Pods-WatchTesterApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp-Info.plist"; sourceTree = "<group>"; };
-		AE76954E6269062B0B5436BD69E191E4 /* Pods-WatchTesterApp WatchKit AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTesterApp WatchKit AppTests-dummy.m"; sourceTree = "<group>"; };
-		AE947256EF72C72A174BAF2EAB30D817 /* Pods-WatchTesterApp WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
-		B05A40546560506BEBFF08D773DB9DAC /* Pods-WatchTesterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp.release.xcconfig"; sourceTree = "<group>"; };
-		B085C172EE68428DB31039C26F922D31 /* Pods-WatchTesterApp WatchKit AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1F177D713E873998DD9D5448C3DB0D9 /* WebSocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketManager.swift; path = WatchTester/WebSocketManager.swift; sourceTree = "<group>"; };
-		B988E4D39054B74C104082FB1411DC21 /* Pods-WatchTesterApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		BAA3B821BEE23BF9177E8ACFD0EF5C73 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-Info.plist"; sourceTree = "<group>"; };
-		BCFE8D170AF405A642D649FEBB5C60E8 /* Pods-WatchTesterApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterApp"; path = Pods_WatchTesterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD0C334FD8D6459725C9D1D01E074B02 /* UITester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITester.swift; path = WatchTester/UITester.swift; sourceTree = "<group>"; };
-		C5B2A8EF1CFF50E0389EB70597D97DA6 /* WatchTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTester.release.xcconfig; sourceTree = "<group>"; };
-		C7097DF55D70FBB1175983DEAEC30CB3 /* Pods-WatchTesterAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CA9BA4F7C2009A07A84BEBF5B1332F33 /* Pods-WatchTesterApp WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterApp WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB612BE3501AC0B394669F984332AB02 /* Pods-WatchTesterApp WatchKit App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterApp WatchKit App"; path = Pods_WatchTesterApp_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC10DA2F79CBD129FC67F70E79AED266 /* WatchTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchTester.swift; path = WatchTester/WatchTester.swift; sourceTree = "<group>"; };
-		CD521404EBC4D1F1FD312AB8891575AF /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2459A18563D1C105848500323131967 /* Pods-WatchTesterAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTesterAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D40179F4B72B93062ADD2579201D6DF9 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-umbrella.h"; sourceTree = "<group>"; };
-		D6ED37D8FF26A9AA0D9060B720437BB6 /* XCUIElement+Scroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElement+Scroll.swift"; path = "WatchTester/XCUIElement+Scroll.swift"; sourceTree = "<group>"; };
-		D8B92FD9649D5AF77DEDEB35EB855592 /* Pods-WatchTesterApp-WatchTesterAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterApp-WatchTesterAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		DB9C3B9D63B617417EEDBFD6C38E8859 /* Pods-WatchTesterAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterAppTests"; path = Pods_WatchTesterAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E52841217771AA01F22588E962025808 /* Pods-WatchTesterApp WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		EA79FE426838EBE1AC9A071079E497BB /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-frameworks.sh"; sourceTree = "<group>"; };
-		F45C98B5F501A26889715366B28900A1 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests"; path = Pods_WatchTesterApp_WatchKit_App_WatchTesterApp_WatchKit_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F93A001F57D72BF53D282D1B2B89001A /* Pods-WatchTesterApp WatchKit AppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WatchTesterApp WatchKit AppTests"; path = Pods_WatchTesterApp_WatchKit_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA5ED6DD399F26C97DFF245D134F02E5 /* XCUIElement+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElement+Helpers.swift"; path = "WatchTester/XCUIElement+Helpers.swift"; sourceTree = "<group>"; };
-		FC98E34540C68FFDB7A8C65F07393920 /* Pods-WatchTesterApp WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterApp WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
-		FD7246C0441C7017E6982B3A7B37B817 /* Pods-WatchTesterAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FFA1755B2EC5937D7C4F63AAF30C85B3 /* WatchTester-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WatchTester-Info.plist"; sourceTree = "<group>"; };
+		9DD5D8DCBF6780D838135AB574BE729B /* Pods-WatchTesterApp WatchKit AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTesterApp WatchKit AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		A448DCA1824067139FFEC0094A4DEDDC /* WatchTester */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = WatchTester; path = libWatchTester.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6204AC04A06EC434DB785A6477EFF1 /* WebSocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketManager.swift; path = WatchTester/WebSocketManager.swift; sourceTree = "<group>"; };
+		CC187A8BAA7E94B8453F005BBDDEFA40 /* Pods-WatchTesterApp WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTesterApp WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D56898815B789724280200BF7C94C5F7 /* WebSocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketTypes.swift; path = WatchTester/WebSocketTypes.swift; sourceTree = "<group>"; };
+		DA0CED914A51AC1EE9876832B8F49997 /* WatchTester-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTester-prefix.pch"; sourceTree = "<group>"; };
+		DBB5B0F71B065757FDAA2751DBBF89C4 /* Pods-WatchTesterApp WatchKit AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTesterApp WatchKit AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE8A351AD889299F049EF5F992335998 /* CGGraphics+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGGraphics+Helpers.swift"; path = "WatchTester/CGGraphics+Helpers.swift"; sourceTree = "<group>"; };
+		DECDA4EC21844B0474CFE253B46F073A /* XCUIElement+Scroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElement+Scroll.swift"; path = "WatchTester/XCUIElement+Scroll.swift"; sourceTree = "<group>"; };
+		E852F30A70554B14A20CEF3DD3142602 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F48B23355D4E8CB2E53886869662EAB2 /* WatchTester.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WatchTester.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0773CAA056371E1A4CBF807257A380A7 /* Frameworks */ = {
+		DFE49CC8AFA8DC82378989AEBBAE228F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E0D36E16B8E7D5B71213ABBE79E78E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0DF09409D1319CE61C850B6B46529BC0 /* Frameworks */ = {
+		E527608045D948218AECAD20F7811BEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCDD56B1A89868D5C118A8B3BE70D0F4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E3A893775A30CA03C75159394C1D45F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EAD073745CE486C70F4478420D3C915 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		451240EC4FB341B91DEBE80D2A7D5D18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06B00CDAA184A37A83B37097546CA2F7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C49EFBF6B79FBFEB87A7EAD7C78C23B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6660BB748F65B9CC6E03E09F80A1169 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6305AC0064171F7F220B8E16D25FCA3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				885692799C73DEF52FAFCB396D311556 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		852356F26A651819D410E36D3D166F3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B05C5990550E464F8606B7AF5C64617 /* Foundation.framework in Frameworks */,
-				361468A6037DC3DFC8111035CCD0A097 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		996CE7BC4A32EB5848BB48A4EABF1D56 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCD5EF817E25BDBE0755C87AD729DF40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11D9AE111084918F3B1B8E840138598A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D563E479CB6CD952C44F3389B652453E /* iOS */,
-				A85EB23FA7DE941B7C4FFC41686482F6 /* watchOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1D416FD7DC6174BA7E10539CA4F2CA2E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BCFE8D170AF405A642D649FEBB5C60E8 /* Pods-WatchTesterApp */,
-				CB612BE3501AC0B394669F984332AB02 /* Pods-WatchTesterApp WatchKit App */,
-				F45C98B5F501A26889715366B28900A1 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests */,
-				F93A001F57D72BF53D282D1B2B89001A /* Pods-WatchTesterApp WatchKit AppTests */,
-				25F72DD47E2B609659B80C6E6ACA361A /* Pods-WatchTesterApp WatchKit Extension */,
-				5F956B0FCD4592439598E0B8B300AC76 /* Pods-WatchTesterApp-WatchTesterAppUITests */,
-				DB9C3B9D63B617417EEDBFD6C38E8859 /* Pods-WatchTesterAppTests */,
-				A448DCA1824067139FFEC0094A4DEDDC /* WatchTester */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1E045282FD0D7C04FB7322BAEBAA0C98 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA909C0CB46FDE632B1557FF6E7A9A04 /* WatchTester */,
+				A4DB84F426F984235082223BE16F3727 /* WatchTester */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		31F155B20DF467715805F0D607E0E126 /* Pods-WatchTesterApp */ = {
+		1E6069E105813F8EA5FF91FD64789F65 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				50E75E38D73BB878F5538672D5C01E92 /* Pods-WatchTesterApp.modulemap */,
-				1155BF87056608E95D222CBE742F8EE7 /* Pods-WatchTesterApp-acknowledgements.markdown */,
-				B988E4D39054B74C104082FB1411DC21 /* Pods-WatchTesterApp-acknowledgements.plist */,
-				5EF65AC0D9DC1825C48BED9B04904369 /* Pods-WatchTesterApp-dummy.m */,
-				AB3B2182617CBA0B307523491916232A /* Pods-WatchTesterApp-Info.plist */,
-				920549714AE0A6145D7B652B292A51C8 /* Pods-WatchTesterApp-umbrella.h */,
-				3BCD6F4CF2438FDA3C65FDC4420F04FB /* Pods-WatchTesterApp.debug.xcconfig */,
-				B05A40546560506BEBFF08D773DB9DAC /* Pods-WatchTesterApp.release.xcconfig */,
+				5513F6F1F0A47FBD2BF3A8EE0C94F6CD /* Pods-WatchTesterApp WatchKit AppUITests */,
 			);
-			name = "Pods-WatchTesterApp";
-			path = "Target Support Files/Pods-WatchTesterApp";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		33D7F2FE3F3CAAA8B17E7BB148827558 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests */ = {
+		370F7E339179DEBC2CA1E54D80439936 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AA12B3A4E1196AC8FE41C82F7885C43C /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.modulemap */,
-				CD521404EBC4D1F1FD312AB8891575AF /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-acknowledgements.markdown */,
-				94D8EFD912EF80171457DE0C093680B1 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-acknowledgements.plist */,
-				6F79E08284E54F47E748E6A7DB60E46D /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-dummy.m */,
-				EA79FE426838EBE1AC9A071079E497BB /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-frameworks.sh */,
-				BAA3B821BEE23BF9177E8ACFD0EF5C73 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-Info.plist */,
-				D40179F4B72B93062ADD2579201D6DF9 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-umbrella.h */,
-				6238FA23CA5A6599380887201A903992 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.debug.xcconfig */,
-				1C8B5070C3F699C4BB24FDCA3A9A6E6F /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.release.xcconfig */,
+				E852F30A70554B14A20CEF3DD3142602 /* LICENSE */,
+				F48B23355D4E8CB2E53886869662EAB2 /* WatchTester.podspec */,
 			);
-			name = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests";
-			path = "Target Support Files/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		4E4B927DEEDD33865B11FDB9281BBCE2 /* Support Files */ = {
+		5513F6F1F0A47FBD2BF3A8EE0C94F6CD /* Pods-WatchTesterApp WatchKit AppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				98324D626B69FAE129B922ADA6B50C9F /* WatchTester.modulemap */,
-				30749A0FE9075ACB19C6ED9E5730B190 /* WatchTester-dummy.m */,
-				FFA1755B2EC5937D7C4F63AAF30C85B3 /* WatchTester-Info.plist */,
-				8D616084B612A0BD00499C43425B1E4A /* WatchTester-prefix.pch */,
-				22F55C93E74735E04A625B1854366C30 /* WatchTester-umbrella.h */,
-				082788FFD3B6968C89A744B0FF36F6E4 /* WatchTester.debug.xcconfig */,
-				C5B2A8EF1CFF50E0389EB70597D97DA6 /* WatchTester.release.xcconfig */,
+				1BED489D89D216EFD604142C3F595C53 /* Pods-WatchTesterApp WatchKit AppUITests.modulemap */,
+				5D454D40027C4316775450A12074D067 /* Pods-WatchTesterApp WatchKit AppUITests-acknowledgements.markdown */,
+				DBB5B0F71B065757FDAA2751DBBF89C4 /* Pods-WatchTesterApp WatchKit AppUITests-acknowledgements.plist */,
+				8D540F53F9359EC346D37325FE68D95A /* Pods-WatchTesterApp WatchKit AppUITests-dummy.m */,
+				9DD5D8DCBF6780D838135AB574BE729B /* Pods-WatchTesterApp WatchKit AppUITests-umbrella.h */,
+				4F02A5D3906D8B137F391BF5E75AF9AE /* Pods-WatchTesterApp WatchKit AppUITests.debug.xcconfig */,
+				CC187A8BAA7E94B8453F005BBDDEFA40 /* Pods-WatchTesterApp WatchKit AppUITests.release.xcconfig */,
+			);
+			name = "Pods-WatchTesterApp WatchKit AppUITests";
+			path = "Target Support Files/Pods-WatchTesterApp WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		8E345EB468A850EA7A57990A21901B2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				172AADEEFB01407091EED1792D11513D /* WatchTester.modulemap */,
+				4CFD71CF341C8173D831460A53E92D83 /* WatchTester-dummy.m */,
+				DA0CED914A51AC1EE9876832B8F49997 /* WatchTester-prefix.pch */,
+				21C5360A88937597EAA42ADC5C23D6CB /* WatchTester-umbrella.h */,
+				939856C861FF03AFC16F66476C3204E2 /* WatchTester.debug.xcconfig */,
+				7EB417EAB66B1823DE97F8CC5F6522BA /* WatchTester.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../WatchTesterApp/Pods/Target Support Files/WatchTester";
 			sourceTree = "<group>";
 		};
-		5975A6B4C783016788A5E89EB17F458D /* Pods-WatchTesterApp-WatchTesterAppUITests */ = {
+		A4DB84F426F984235082223BE16F3727 /* WatchTester */ = {
 			isa = PBXGroup;
 			children = (
-				A842E6C17E4AC544021C41338619E77D /* Pods-WatchTesterApp-WatchTesterAppUITests.modulemap */,
-				9AF97CFA33D7AB879E4B661D0D0A4563 /* Pods-WatchTesterApp-WatchTesterAppUITests-acknowledgements.markdown */,
-				A0659EC049DCF4C1AEEE850358F5CDC2 /* Pods-WatchTesterApp-WatchTesterAppUITests-acknowledgements.plist */,
-				4522B61F0283770DB67E7F4644746510 /* Pods-WatchTesterApp-WatchTesterAppUITests-dummy.m */,
-				A926D4857A2C1E523A1305FCDD23C90C /* Pods-WatchTesterApp-WatchTesterAppUITests-Info.plist */,
-				D8B92FD9649D5AF77DEDEB35EB855592 /* Pods-WatchTesterApp-WatchTesterAppUITests-umbrella.h */,
-				7BE0F6046BD297F1D7B1B37F24D94844 /* Pods-WatchTesterApp-WatchTesterAppUITests.debug.xcconfig */,
-				58988C3684C5EAB1D6E68FB2A9B010F8 /* Pods-WatchTesterApp-WatchTesterAppUITests.release.xcconfig */,
-			);
-			name = "Pods-WatchTesterApp-WatchTesterAppUITests";
-			path = "Target Support Files/Pods-WatchTesterApp-WatchTesterAppUITests";
-			sourceTree = "<group>";
-		};
-		6E99BAE2202A20D0F008025C7D27CDE7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5CEEF63A6ADF46C098684740EC733CAB /* LICENSE */,
-				366FF35544F984EAB4801DADB5B9506B /* WatchTester.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		811F32C7D3615DC16B2EDF7954E942F1 /* Pods-WatchTesterApp WatchKit AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				013C702DA2E1E6142E4B3A072CF3250A /* Pods-WatchTesterApp WatchKit AppTests.modulemap */,
-				49DB31ACD87061729CEC9BA2055211DD /* Pods-WatchTesterApp WatchKit AppTests-acknowledgements.markdown */,
-				B085C172EE68428DB31039C26F922D31 /* Pods-WatchTesterApp WatchKit AppTests-acknowledgements.plist */,
-				AE76954E6269062B0B5436BD69E191E4 /* Pods-WatchTesterApp WatchKit AppTests-dummy.m */,
-				33A8F14B03E9C26A2A092C7B67E9A472 /* Pods-WatchTesterApp WatchKit AppTests-Info.plist */,
-				0DAC28944FD031AFE36DAC986F506A5C /* Pods-WatchTesterApp WatchKit AppTests-umbrella.h */,
-				AA81CCF95424F01469217E74250C9A74 /* Pods-WatchTesterApp WatchKit AppTests.debug.xcconfig */,
-				77453252CCE4C2127C4C99754BB5A3A9 /* Pods-WatchTesterApp WatchKit AppTests.release.xcconfig */,
-			);
-			name = "Pods-WatchTesterApp WatchKit AppTests";
-			path = "Target Support Files/Pods-WatchTesterApp WatchKit AppTests";
-			sourceTree = "<group>";
-		};
-		94F45929F9DA36CC874C0868A308435B /* Pods-WatchTesterApp WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				2C0FEC2CEE448BA7490609EE8F1E446F /* Pods-WatchTesterApp WatchKit App.modulemap */,
-				CA9BA4F7C2009A07A84BEBF5B1332F33 /* Pods-WatchTesterApp WatchKit App-acknowledgements.markdown */,
-				AA9A7BB4D9C7CAC7DE89BD3FB0E0ADDC /* Pods-WatchTesterApp WatchKit App-acknowledgements.plist */,
-				91F5383DC729A11A4A781C3EACFA1705 /* Pods-WatchTesterApp WatchKit App-dummy.m */,
-				963F98ADB222A5AC95E4ECBF90AE07A3 /* Pods-WatchTesterApp WatchKit App-Info.plist */,
-				9EE7CE516F0F12248F4E8D2432419ECA /* Pods-WatchTesterApp WatchKit App-umbrella.h */,
-				AE947256EF72C72A174BAF2EAB30D817 /* Pods-WatchTesterApp WatchKit App.debug.xcconfig */,
-				E52841217771AA01F22588E962025808 /* Pods-WatchTesterApp WatchKit App.release.xcconfig */,
-			);
-			name = "Pods-WatchTesterApp WatchKit App";
-			path = "Target Support Files/Pods-WatchTesterApp WatchKit App";
-			sourceTree = "<group>";
-		};
-		A85EB23FA7DE941B7C4FFC41686482F6 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				93686EB5C200EBBAB1BD574B60F53826 /* Foundation.framework */,
-				97F417B3292FAFDB2365F4A33C0BAD90 /* XCTest.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		B3A6D5701A688E54919DA666423D6CD7 /* Pods-WatchTesterAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				2DABD249AAA3D552FDBCFACE744D57B1 /* Pods-WatchTesterAppTests.modulemap */,
-				D2459A18563D1C105848500323131967 /* Pods-WatchTesterAppTests-acknowledgements.markdown */,
-				FD7246C0441C7017E6982B3A7B37B817 /* Pods-WatchTesterAppTests-acknowledgements.plist */,
-				6B8CA1AD351E480669155FA25653CFC3 /* Pods-WatchTesterAppTests-dummy.m */,
-				0EDFA6AB194738322206EE9A1D6D2AD4 /* Pods-WatchTesterAppTests-Info.plist */,
-				3D43ADC7D1FB0FDF0DD91FF8570ABB10 /* Pods-WatchTesterAppTests-umbrella.h */,
-				C7097DF55D70FBB1175983DEAEC30CB3 /* Pods-WatchTesterAppTests.debug.xcconfig */,
-				0CEB4A676C45397430F0E889D246C08E /* Pods-WatchTesterAppTests.release.xcconfig */,
-			);
-			name = "Pods-WatchTesterAppTests";
-			path = "Target Support Files/Pods-WatchTesterAppTests";
-			sourceTree = "<group>";
-		};
-		BA909C0CB46FDE632B1557FF6E7A9A04 /* WatchTester */ = {
-			isa = PBXGroup;
-			children = (
-				89A5680D2CE14413878A85C47DE238BD /* CGGraphics+Helpers.swift */,
-				A8A7EB5C41366BD948C4FADCACD96C62 /* Executor.swift */,
-				BD0C334FD8D6459725C9D1D01E074B02 /* UITester.swift */,
-				2F55F457A54BCA4C1CB164874CF2AB4F /* WatchCommandResponse.swift */,
-				CC10DA2F79CBD129FC67F70E79AED266 /* WatchTester.swift */,
-				B1F177D713E873998DD9D5448C3DB0D9 /* WebSocketManager.swift */,
-				678B58EC145D27E53125A45E69CF3402 /* WebSocketTypes.swift */,
-				03988BDFAAD6F51E2A1375616291E65E /* XCTestCase.swift */,
-				FA5ED6DD399F26C97DFF245D134F02E5 /* XCUIElement+Helpers.swift */,
-				D6ED37D8FF26A9AA0D9060B720437BB6 /* XCUIElement+Scroll.swift */,
-				6E99BAE2202A20D0F008025C7D27CDE7 /* Pod */,
-				4E4B927DEEDD33865B11FDB9281BBCE2 /* Support Files */,
+				DE8A351AD889299F049EF5F992335998 /* CGGraphics+Helpers.swift */,
+				750F63A7200AFEAA848FF7EC62D3B514 /* Executor.swift */,
+				2751FDD95A9E72C9C90FDAD36894B781 /* UITester.swift */,
+				3E5B7AEBD3B3CC426359F3DDA9B7488A /* WatchCommandResponse.swift */,
+				39FB23A931C37EF95189040BD6D5343F /* WatchTester.swift */,
+				AA6204AC04A06EC434DB785A6477EFF1 /* WebSocketManager.swift */,
+				D56898815B789724280200BF7C94C5F7 /* WebSocketTypes.swift */,
+				1D2F57EFEEA56099D1CCEDCBC9DC378C /* XCTestCase.swift */,
+				31AD9635BEEF77EADACDA46587213B70 /* XCUIElement+Helpers.swift */,
+				DECDA4EC21844B0474CFE253B46F073A /* XCUIElement+Scroll.swift */,
+				370F7E339179DEBC2CA1E54D80439936 /* Pod */,
+				8E345EB468A850EA7A57990A21901B2B /* Support Files */,
 			);
 			name = WatchTester;
 			path = ../../WatchTester;
@@ -415,221 +161,76 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1E045282FD0D7C04FB7322BAEBAA0C98 /* Development Pods */,
-				11D9AE111084918F3B1B8E840138598A /* Frameworks */,
-				1D416FD7DC6174BA7E10539CA4F2CA2E /* Products */,
-				F86FB37E17DCED259D8094203F61D840 /* Targets Support Files */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F6EEFE111DD62F1C9171097A95BD1103 /* Products */,
+				1E6069E105813F8EA5FF91FD64789F65 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF18EDBD52E4CE36CB9B4BCB4B948A4D /* Pods-WatchTesterApp WatchKit Extension */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A00936E75F4B097B2E36021133AF602E /* Pods-WatchTesterApp WatchKit Extension.modulemap */,
-				209DA0CD11109C74B2E3584B6B9E4089 /* Pods-WatchTesterApp WatchKit Extension-acknowledgements.markdown */,
-				8A01226450CBF23F25019C119E4450B1 /* Pods-WatchTesterApp WatchKit Extension-acknowledgements.plist */,
-				3CA042FC3DA5083B6F25CEBADFE38BB1 /* Pods-WatchTesterApp WatchKit Extension-dummy.m */,
-				4E1088A9BDEEA3126F1052A975663391 /* Pods-WatchTesterApp WatchKit Extension-Info.plist */,
-				FC98E34540C68FFDB7A8C65F07393920 /* Pods-WatchTesterApp WatchKit Extension-umbrella.h */,
-				83E07044B197B7D85311441CE0C06518 /* Pods-WatchTesterApp WatchKit Extension.debug.xcconfig */,
-				3E401CB6B5E9E3D73DC7A661A685D0AF /* Pods-WatchTesterApp WatchKit Extension.release.xcconfig */,
 			);
-			name = "Pods-WatchTesterApp WatchKit Extension";
-			path = "Target Support Files/Pods-WatchTesterApp WatchKit Extension";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D563E479CB6CD952C44F3389B652453E /* iOS */ = {
+		F6EEFE111DD62F1C9171097A95BD1103 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4534723A21DBD84534FE401AD12F0645 /* Foundation.framework */,
+				0CDED496E00EE2C9145554F121757152 /* Pods-WatchTesterApp WatchKit AppUITests */,
+				A448DCA1824067139FFEC0094A4DEDDC /* WatchTester */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F86FB37E17DCED259D8094203F61D840 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				31F155B20DF467715805F0D607E0E126 /* Pods-WatchTesterApp */,
-				94F45929F9DA36CC874C0868A308435B /* Pods-WatchTesterApp WatchKit App */,
-				33D7F2FE3F3CAAA8B17E7BB148827558 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests */,
-				811F32C7D3615DC16B2EDF7954E942F1 /* Pods-WatchTesterApp WatchKit AppTests */,
-				CF18EDBD52E4CE36CB9B4BCB4B948A4D /* Pods-WatchTesterApp WatchKit Extension */,
-				5975A6B4C783016788A5E89EB17F458D /* Pods-WatchTesterApp-WatchTesterAppUITests */,
-				B3A6D5701A688E54919DA666423D6CD7 /* Pods-WatchTesterAppTests */,
-			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12A73D37A5B8469D17605CF503689BAD /* Headers */ = {
+		77276284269AB77A3CE145218AE4EF3E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD58F5E904FFED684B0ABFC54F6F604 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-umbrella.h in Headers */,
+				AA2851AA275CB9BC4CCD580CD7D22B06 /* WatchTester-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D7FF4F6A78111F7C0F2BE29C252B97A /* Headers */ = {
+		E2BEB9EFECF29FDDE66CC9FB644AEF78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4552C86D630AF9C68DC6F90517E0DD8 /* Pods-WatchTesterApp-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FEF89F5095530CE6B31A5803B159D3F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5F91D1AE29AEC1FF9E3C38F03C57605 /* Pods-WatchTesterApp WatchKit AppTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE1908EEA73DCB13E19FDC2EFC77176E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E042A869548BE523A183E83CBE07460 /* Pods-WatchTesterApp WatchKit Extension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6C9B2EC2B830ACFA2D5F83476918D59 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A27EE09619987F35A5E280A8DC78D90A /* WatchTester-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D74C794C161DAF41D45F374F2BCCAA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FCE5DEA8E8469FA0598793060B15F9B /* Pods-WatchTesterApp-WatchTesterAppUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDFC60F8D136295917FCA4B250C0A35A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7075F394EE06D541356274747EB8B7B5 /* Pods-WatchTesterApp WatchKit App-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F6478CD0F779A15363ADDF2DB7EB4E70 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47731EBDD8F09CBAB73CF1A590B2FACC /* Pods-WatchTesterAppTests-umbrella.h in Headers */,
+				EEAC14077E7292CA2ACABB7C452E950D /* Pods-WatchTesterApp WatchKit AppUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		134FDF9FC1FDCFC5A88BD4ED956B8383 /* Pods-WatchTesterApp WatchKit App */ = {
+		279D6CB36E1AB7886DDFEDA05D9791A6 /* Pods-WatchTesterApp WatchKit AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DFF07733EA85117F0A82492DBE1C951 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit App" */;
+			buildConfigurationList = F61DD875371DA85ADD5BC2655056C9EE /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit AppUITests" */;
 			buildPhases = (
-				EDFC60F8D136295917FCA4B250C0A35A /* Headers */,
-				002E9E504F32121804985BDC23D01AEC /* Sources */,
-				4C49EFBF6B79FBFEB87A7EAD7C78C23B /* Frameworks */,
-				93F8E89B8463AF3E513340B9CD73DE99 /* Resources */,
+				E2BEB9EFECF29FDDE66CC9FB644AEF78 /* Headers */,
+				7C60C3CA06ED362CE8F9A362D26D6112 /* Sources */,
+				DFE49CC8AFA8DC82378989AEBBAE228F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5CADDB6E172D7021AF16EC092F35E9BB /* PBXTargetDependency */,
 			);
-			name = "Pods-WatchTesterApp WatchKit App";
-			productName = Pods_WatchTesterApp_WatchKit_App;
-			productReference = CB612BE3501AC0B394669F984332AB02 /* Pods-WatchTesterApp WatchKit App */;
-			productType = "com.apple.product-type.framework";
-		};
-		1B26966E824B424C8F1A1075E9CA1B44 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AF61CF3BB0F6EADB138A70E3872EC51 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests" */;
-			buildPhases = (
-				12A73D37A5B8469D17605CF503689BAD /* Headers */,
-				CDFF2B3DB76F396187162AF9E754142F /* Sources */,
-				451240EC4FB341B91DEBE80D2A7D5D18 /* Frameworks */,
-				1BA147C7E2ACBAF12F06EAF32E34E137 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80264837E0601CBC6C6D24EB38E1901C /* PBXTargetDependency */,
-			);
-			name = "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests";
-			productName = Pods_WatchTesterApp_WatchKit_App_WatchTesterApp_WatchKit_AppUITests;
-			productReference = F45C98B5F501A26889715366B28900A1 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests */;
-			productType = "com.apple.product-type.framework";
-		};
-		6E029713FD9315537E3C4AB6AFF876C8 /* Pods-WatchTesterApp WatchKit AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1EA11B5B9463D1AA5BC43AC9D178E59 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit AppTests" */;
-			buildPhases = (
-				2FEF89F5095530CE6B31A5803B159D3F /* Headers */,
-				4EE48105D0C025E1104792AA379E50E1 /* Sources */,
-				6305AC0064171F7F220B8E16D25FCA3B /* Frameworks */,
-				1508C07FFA1517CCBCDAA37A3EA1F54B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C93365DE0A317A62F3020F80D70DFF1B /* PBXTargetDependency */,
-			);
-			name = "Pods-WatchTesterApp WatchKit AppTests";
-			productName = Pods_WatchTesterApp_WatchKit_AppTests;
-			productReference = F93A001F57D72BF53D282D1B2B89001A /* Pods-WatchTesterApp WatchKit AppTests */;
-			productType = "com.apple.product-type.framework";
-		};
-		7D5FF7987D4BE1449584E13928E1E753 /* Pods-WatchTesterApp-WatchTesterAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA88E0C43FC9113C46D781A900C94BB2 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp-WatchTesterAppUITests" */;
-			buildPhases = (
-				E9D74C794C161DAF41D45F374F2BCCAA /* Headers */,
-				E374DCB5A13BB92836A52C40BC926D31 /* Sources */,
-				996CE7BC4A32EB5848BB48A4EABF1D56 /* Frameworks */,
-				855189BA49EC35F054AE0FAF303AEEE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WatchTesterApp-WatchTesterAppUITests";
-			productName = Pods_WatchTesterApp_WatchTesterAppUITests;
-			productReference = 5F956B0FCD4592439598E0B8B300AC76 /* Pods-WatchTesterApp-WatchTesterAppUITests */;
-			productType = "com.apple.product-type.framework";
-		};
-		85FDA62A3DC3B59A54C9D7631A71447F /* Pods-WatchTesterAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7A983FF90B2EE17405CA4B972B157F3 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterAppTests" */;
-			buildPhases = (
-				F6478CD0F779A15363ADDF2DB7EB4E70 /* Headers */,
-				E44E120F8FE620B209982E74D441FDED /* Sources */,
-				0E3A893775A30CA03C75159394C1D45F /* Frameworks */,
-				EEBA0928EFBAB953C7CE1030C3BD62A3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				898C5D35982378F180DEE3732BC8D568 /* PBXTargetDependency */,
-			);
-			name = "Pods-WatchTesterAppTests";
-			productName = Pods_WatchTesterAppTests;
-			productReference = DB9C3B9D63B617417EEDBFD6C38E8859 /* Pods-WatchTesterAppTests */;
-			productType = "com.apple.product-type.framework";
+			name = "Pods-WatchTesterApp WatchKit AppUITests";
+			productName = "Pods-WatchTesterApp WatchKit AppUITests";
+			productReference = 0CDED496E00EE2C9145554F121757152 /* Pods-WatchTesterApp WatchKit AppUITests */;
+			productType = "com.apple.product-type.library.static";
 		};
 		8DFB38CEB438C541615A97C9BA634408 /* WatchTester */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDCEF213EE1F32CF8C5923BC1BCA6D38 /* Build configuration list for PBXNativeTarget "WatchTester" */;
+			buildConfigurationList = CFA1695634AEEA2AB28BB4B1F64F6243 /* Build configuration list for PBXNativeTarget "WatchTester" */;
 			buildPhases = (
-				C6C9B2EC2B830ACFA2D5F83476918D59 /* Headers */,
-				46EAC2E8965F25CE8691544EB10D8CE2 /* Sources */,
-				852356F26A651819D410E36D3D166F3A /* Frameworks */,
-				D7EFF80E963020601D4C964B047AAF9C /* Resources */,
+				77276284269AB77A3CE145218AE4EF3E /* Headers */,
+				194FF11C979276F7B6ACEFBB87ACED51 /* Sources */,
+				E527608045D948218AECAD20F7811BEF /* Frameworks */,
+				474433AD52C69A8F4FCA9C0F9C20A8EA /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -638,43 +239,7 @@
 			name = WatchTester;
 			productName = WatchTester;
 			productReference = A448DCA1824067139FFEC0094A4DEDDC /* WatchTester */;
-			productType = "com.apple.product-type.framework";
-		};
-		B0DA84C021F5B075ABB1099EA5195067 /* Pods-WatchTesterApp WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98786734361EEC1CE2532460F342E7B1 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit Extension" */;
-			buildPhases = (
-				AE1908EEA73DCB13E19FDC2EFC77176E /* Headers */,
-				5C60E0389DE73C2FD1545B89EA0C0C67 /* Sources */,
-				0DF09409D1319CE61C850B6B46529BC0 /* Frameworks */,
-				0C08075A039EED49CA7E6F234146AE7D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WatchTesterApp WatchKit Extension";
-			productName = Pods_WatchTesterApp_WatchKit_Extension;
-			productReference = 25F72DD47E2B609659B80C6E6ACA361A /* Pods-WatchTesterApp WatchKit Extension */;
-			productType = "com.apple.product-type.framework";
-		};
-		C9098376E72528457600A7CCB50F6921 /* Pods-WatchTesterApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07062F160138A628E120338D21411A6D /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp" */;
-			buildPhases = (
-				2D7FF4F6A78111F7C0F2BE29C252B97A /* Headers */,
-				28878B7C198283DF94B108EECC47D3AF /* Sources */,
-				0773CAA056371E1A4CBF807257A380A7 /* Frameworks */,
-				E78C161C90E836FDA98220BD2434FF6B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WatchTesterApp";
-			productName = Pods_WatchTesterApp;
-			productReference = BCFE8D170AF405A642D649FEBB5C60E8 /* Pods-WatchTesterApp */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -694,802 +259,83 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1D416FD7DC6174BA7E10539CA4F2CA2E /* Products */;
+			productRefGroup = F6EEFE111DD62F1C9171097A95BD1103 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9098376E72528457600A7CCB50F6921 /* Pods-WatchTesterApp */,
-				134FDF9FC1FDCFC5A88BD4ED956B8383 /* Pods-WatchTesterApp WatchKit App */,
-				1B26966E824B424C8F1A1075E9CA1B44 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests */,
-				6E029713FD9315537E3C4AB6AFF876C8 /* Pods-WatchTesterApp WatchKit AppTests */,
-				B0DA84C021F5B075ABB1099EA5195067 /* Pods-WatchTesterApp WatchKit Extension */,
-				7D5FF7987D4BE1449584E13928E1E753 /* Pods-WatchTesterApp-WatchTesterAppUITests */,
-				85FDA62A3DC3B59A54C9D7631A71447F /* Pods-WatchTesterAppTests */,
+				279D6CB36E1AB7886DDFEDA05D9791A6 /* Pods-WatchTesterApp WatchKit AppUITests */,
 				8DFB38CEB438C541615A97C9BA634408 /* WatchTester */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0C08075A039EED49CA7E6F234146AE7D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		474433AD52C69A8F4FCA9C0F9C20A8EA /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1508C07FFA1517CCBCDAA37A3EA1F54B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/WatchTester/WatchTester.modulemap",
+				"${PODS_ROOT}/Headers/Public/WatchTester/WatchTester-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/WatchTester-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/WatchTester/WatchTester.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/WatchTester/WatchTester-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
-		1BA147C7E2ACBAF12F06EAF32E34E137 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		855189BA49EC35F054AE0FAF303AEEE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93F8E89B8463AF3E513340B9CD73DE99 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7EFF80E963020601D4C964B047AAF9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E78C161C90E836FDA98220BD2434FF6B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEBA0928EFBAB953C7CE1030C3BD62A3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		002E9E504F32121804985BDC23D01AEC /* Sources */ = {
+		194FF11C979276F7B6ACEFBB87ACED51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01EA0313BC4029BE38CA736230BFA85C /* Pods-WatchTesterApp WatchKit App-dummy.m in Sources */,
+				D3A28EA97AD665B32E1A481DD8577153 /* CGGraphics+Helpers.swift in Sources */,
+				A9A61ADF017385F2D2B17E1882F2DD4F /* Executor.swift in Sources */,
+				15524F902F62823BDE81A1AD4FCBEE0E /* UITester.swift in Sources */,
+				D001B1F61AC64E42532549D9018680DD /* WatchCommandResponse.swift in Sources */,
+				1140BA4B4585EEDEA5311ABFFA61E8EF /* WatchTester.swift in Sources */,
+				9FB93755A1CCED5C884B390650607D31 /* WatchTester-dummy.m in Sources */,
+				C046105749F377E46D465B3EA29AABEE /* WebSocketManager.swift in Sources */,
+				89708E4234B3EF87FE3DCBD73078A13B /* WebSocketTypes.swift in Sources */,
+				EC3CC38742A63815909DE12E0FB12C90 /* XCTestCase.swift in Sources */,
+				FD028554B552CA0263F13F1BB600B28F /* XCUIElement+Helpers.swift in Sources */,
+				CA4D382D43B7D934D4A86325304508EA /* XCUIElement+Scroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28878B7C198283DF94B108EECC47D3AF /* Sources */ = {
+		7C60C3CA06ED362CE8F9A362D26D6112 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA710DBF4EB481C86B0E2BAB5B8C9451 /* Pods-WatchTesterApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EAC2E8965F25CE8691544EB10D8CE2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				151F1686FDBF125895834CA22076110E /* CGGraphics+Helpers.swift in Sources */,
-				E43B2D31F7D181E41FA461108EDD0511 /* Executor.swift in Sources */,
-				4B0C1D6C1359F2CAC3BA5F6C1CAF89D4 /* UITester.swift in Sources */,
-				5D066196CDB1B8358FB3592D9A1F7CA5 /* WatchCommandResponse.swift in Sources */,
-				66A269A9F0530D8D969D1F4F5C9D2AC6 /* WatchTester.swift in Sources */,
-				74D8554B7D5A45040153BABADE5D1451 /* WatchTester-dummy.m in Sources */,
-				86E286460D75BE3D2F2D54A3C30FC338 /* WebSocketManager.swift in Sources */,
-				508025AF6771B3C5398FA1666ECF002F /* WebSocketTypes.swift in Sources */,
-				AA0B82129E7F7B5FBDB986A70467CC30 /* XCTestCase.swift in Sources */,
-				452F772E7B3DAB5049B39C89999EB214 /* XCUIElement+Helpers.swift in Sources */,
-				9548A99AED142E549EA5CEBE692FF2AB /* XCUIElement+Scroll.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EE48105D0C025E1104792AA379E50E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E8ADB99649BC10CB00C93703872B0B9 /* Pods-WatchTesterApp WatchKit AppTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C60E0389DE73C2FD1545B89EA0C0C67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69B001F82C3EC9FAE142AA1B6E52B572 /* Pods-WatchTesterApp WatchKit Extension-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDFF2B3DB76F396187162AF9E754142F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F67BADDDA032072B2C269D848759E99 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E374DCB5A13BB92836A52C40BC926D31 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B32936B32B2B5728BCEABBB9AE9EB44 /* Pods-WatchTesterApp-WatchTesterAppUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E44E120F8FE620B209982E74D441FDED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				970B54C3F772AB325217102F98955DB6 /* Pods-WatchTesterAppTests-dummy.m in Sources */,
+				EDBCD21A0E2A1129108C9A4C48F709BF /* Pods-WatchTesterApp WatchKit AppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		80264837E0601CBC6C6D24EB38E1901C /* PBXTargetDependency */ = {
+		5CADDB6E172D7021AF16EC092F35E9BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WatchTester;
 			target = 8DFB38CEB438C541615A97C9BA634408 /* WatchTester */;
-			targetProxy = F962DC3DB432FE42876A169EF96F11DE /* PBXContainerItemProxy */;
-		};
-		898C5D35982378F180DEE3732BC8D568 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WatchTesterApp";
-			target = C9098376E72528457600A7CCB50F6921 /* Pods-WatchTesterApp */;
-			targetProxy = AF055D5164C972AE845DF8EA64BFCC6B /* PBXContainerItemProxy */;
-		};
-		C93365DE0A317A62F3020F80D70DFF1B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WatchTesterApp WatchKit App";
-			target = 134FDF9FC1FDCFC5A88BD4ED956B8383 /* Pods-WatchTesterApp WatchKit App */;
-			targetProxy = 83ADEAF0282C0D69E6EAC89B1C0E47D6 /* PBXContainerItemProxy */;
+			targetProxy = 13B59443ED68AAC5068E0FA6412B9D28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0901236588C6F9E33CA42A93D6F26100 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5B2A8EF1CFF50E0389EB70597D97DA6 /* WatchTester.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WatchTester/WatchTester-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WatchTester/WatchTester-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/WatchTester/WatchTester.modulemap";
-				PRODUCT_MODULE_NAME = WatchTester;
-				PRODUCT_NAME = WatchTester;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Release;
-		};
-		1323B73351E5832E98CDE770B1B5BDE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 082788FFD3B6968C89A744B0FF36F6E4 /* WatchTester.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WatchTester/WatchTester-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WatchTester/WatchTester-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/WatchTester/WatchTester.modulemap";
-				PRODUCT_MODULE_NAME = WatchTester;
-				PRODUCT_NAME = WatchTester;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Debug;
-		};
-		199A56EEDE7102F168135870527460DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C8B5070C3F699C4BB24FDCA3A9A6E6F /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Release;
-		};
-		23811706E25B83D86B6E7EDF2CDDB323 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77453252CCE4C2127C4C99754BB5A3A9 /* Pods-WatchTesterApp WatchKit AppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit AppTests/Pods-WatchTesterApp WatchKit AppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit AppTests/Pods-WatchTesterApp WatchKit AppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Release;
-		};
-		2A3365EB5763D74EE489642522E086A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E401CB6B5E9E3D73DC7A661A685D0AF /* Pods-WatchTesterApp WatchKit Extension.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit Extension/Pods-WatchTesterApp WatchKit Extension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit Extension/Pods-WatchTesterApp WatchKit Extension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Release;
-		};
-		300FBD8DAEF0D866152322B7C36C2370 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CEB4A676C45397430F0E889D246C08E /* Pods-WatchTesterAppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterAppTests/Pods-WatchTesterAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterAppTests/Pods-WatchTesterAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3B8FCBB2C9F63B7630983CA3D2C81050 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6238FA23CA5A6599380887201A903992 /* Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests/Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Debug;
-		};
-		4773A48787F085D08772C71C09995AE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BCD6F4CF2438FDA3C65FDC4420F04FB /* Pods-WatchTesterApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp/Pods-WatchTesterApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp/Pods-WatchTesterApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6865CBDD8D22108AC0D774294DFD3ADA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Release;
-		};
-		8113FA0BCACFCFFB5972E612CD391850 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58988C3684C5EAB1D6E68FB2A9B010F8 /* Pods-WatchTesterApp-WatchTesterAppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp-WatchTesterAppUITests/Pods-WatchTesterApp-WatchTesterAppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp-WatchTesterAppUITests/Pods-WatchTesterApp-WatchTesterAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		95997F77C91813950AFBE07A3B5DDC51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B05A40546560506BEBFF08D773DB9DAC /* Pods-WatchTesterApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp/Pods-WatchTesterApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp/Pods-WatchTesterApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A41D8AB710771F746EE4494630C47861 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BE0F6046BD297F1D7B1B37F24D94844 /* Pods-WatchTesterApp-WatchTesterAppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp-WatchTesterAppUITests/Pods-WatchTesterApp-WatchTesterAppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp-WatchTesterAppUITests/Pods-WatchTesterApp-WatchTesterAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A47E4E4D2B4DE114780E6E4BD5793CD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83E07044B197B7D85311441CE0C06518 /* Pods-WatchTesterApp WatchKit Extension.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit Extension/Pods-WatchTesterApp WatchKit Extension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit Extension/Pods-WatchTesterApp WatchKit Extension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Debug;
-		};
-		B8ADB539F096A14F17C2F54740540EAA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE947256EF72C72A174BAF2EAB30D817 /* Pods-WatchTesterApp WatchKit App.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit App/Pods-WatchTesterApp WatchKit App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit App/Pods-WatchTesterApp WatchKit App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Debug;
-		};
-		C537F9B679C47FBD0BBE7BFF32398F5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7097DF55D70FBB1175983DEAEC30CB3 /* Pods-WatchTesterAppTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterAppTests/Pods-WatchTesterAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterAppTests/Pods-WatchTesterAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D1A66955C40CA0F913A09F488059E4B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA81CCF95424F01469217E74250C9A74 /* Pods-WatchTesterApp WatchKit AppTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit AppTests/Pods-WatchTesterApp WatchKit AppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit AppTests/Pods-WatchTesterApp WatchKit AppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
-			};
-			name = Debug;
-		};
-		DF893AE5FAC31C6150ECB7AC2AF65D38 /* Debug */ = {
+		154A913947BE26A09EFE8AD219303D5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1542,7 +388,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1556,40 +401,156 @@
 			};
 			name = Debug;
 		};
-		E150AB4C11439CBD83F317F4465325A0 /* Release */ = {
+		1F4B3C9F7CEDA15BD55BB19DC3A94675 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E52841217771AA01F22588E962025808 /* Pods-WatchTesterApp WatchKit App.release.xcconfig */;
+			baseConfigurationReference = 939856C861FF03AFC16F66476C3204E2 /* WatchTester.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit App/Pods-WatchTesterApp WatchKit App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
+				GCC_PREFIX_HEADER = "Target Support Files/WatchTester/WatchTester-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/WatchTester/WatchTester.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WatchTester;
+				PRODUCT_NAME = WatchTester;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		A6954A7354C28FDC5DD472AB858EC05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		C98BEC60A5D1B24B1C758988558F9435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC187A8BAA7E94B8453F005BBDDEFA40 /* Pods-WatchTesterApp WatchKit AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit App/Pods-WatchTesterApp WatchKit App.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit AppUITests/Pods-WatchTesterApp WatchKit AppUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		E13AE286F7F5023032563F930668B473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F02A5D3906D8B137F391BF5E75AF9AE /* Pods-WatchTesterApp WatchKit AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchTesterApp WatchKit AppUITests/Pods-WatchTesterApp WatchKit AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		EC1EDBD64470C497EBCB0CCC09D73B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB417EAB66B1823DE97F8CC5F6522BA /* WatchTester.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WatchTester/WatchTester-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/WatchTester/WatchTester.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WatchTester;
+				PRODUCT_NAME = WatchTester;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 7.4;
 			};
 			name = Release;
@@ -1597,83 +558,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07062F160138A628E120338D21411A6D /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4773A48787F085D08772C71C09995AE6 /* Debug */,
-				95997F77C91813950AFBE07A3B5DDC51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2DFF07733EA85117F0A82492DBE1C951 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8ADB539F096A14F17C2F54740540EAA /* Debug */,
-				E150AB4C11439CBD83F317F4465325A0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF893AE5FAC31C6150ECB7AC2AF65D38 /* Debug */,
-				6865CBDD8D22108AC0D774294DFD3ADA /* Release */,
+				154A913947BE26A09EFE8AD219303D5C /* Debug */,
+				A6954A7354C28FDC5DD472AB858EC05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AF61CF3BB0F6EADB138A70E3872EC51 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit App-WatchTesterApp WatchKit AppUITests" */ = {
+		CFA1695634AEEA2AB28BB4B1F64F6243 /* Build configuration list for PBXNativeTarget "WatchTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B8FCBB2C9F63B7630983CA3D2C81050 /* Debug */,
-				199A56EEDE7102F168135870527460DC /* Release */,
+				1F4B3C9F7CEDA15BD55BB19DC3A94675 /* Debug */,
+				EC1EDBD64470C497EBCB0CCC09D73B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98786734361EEC1CE2532460F342E7B1 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit Extension" */ = {
+		F61DD875371DA85ADD5BC2655056C9EE /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A47E4E4D2B4DE114780E6E4BD5793CD7 /* Debug */,
-				2A3365EB5763D74EE489642522E086A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B1EA11B5B9463D1AA5BC43AC9D178E59 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp WatchKit AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1A66955C40CA0F913A09F488059E4B1 /* Debug */,
-				23811706E25B83D86B6E7EDF2CDDB323 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7A983FF90B2EE17405CA4B972B157F3 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C537F9B679C47FBD0BBE7BFF32398F5A /* Debug */,
-				300FBD8DAEF0D866152322B7C36C2370 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA88E0C43FC9113C46D781A900C94BB2 /* Build configuration list for PBXNativeTarget "Pods-WatchTesterApp-WatchTesterAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A41D8AB710771F746EE4494630C47861 /* Debug */,
-				8113FA0BCACFCFFB5972E612CD391850 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EDCEF213EE1F32CF8C5923BC1BCA6D38 /* Build configuration list for PBXNativeTarget "WatchTester" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1323B73351E5832E98CDE770B1B5BDE4 /* Debug */,
-				0901236588C6F9E33CA42A93D6F26100 /* Release */,
+				E13AE286F7F5023032563F930668B473 /* Debug */,
+				C98BEC60A5D1B24B1C758988558F9435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

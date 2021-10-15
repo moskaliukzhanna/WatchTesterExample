@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DFB38CEB438C541615A97C9BA634408"
-               BuildableName = "libWatchTester.a"
-               BlueprintName = "WatchTester"
+               BlueprintIdentifier = "279D6CB36E1AB7886DDFEDA05D9791A6"
+               BuildableName = "libPods-WatchTesterApp WatchKit AppUITests.a"
+               BlueprintName = "Pods-WatchTesterApp WatchKit AppUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

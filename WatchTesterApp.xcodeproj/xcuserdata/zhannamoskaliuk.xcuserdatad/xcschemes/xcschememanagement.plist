@@ -11,13 +11,55 @@
 		</dict>
 		<key>WatchTesterApp WatchKit App.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>9</integer>
+		</dict>
+		<key>WatchTesterApp WatchKit AppUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>WatchTesterApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>208389DD2716E19C000ABC6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>208389F32716E19E000ABC6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>208389FE2716E19E000ABC6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20838A072716E19F000ABC6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20838A282716E1A0000ABC6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20838A332716E1A0000ABC6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
