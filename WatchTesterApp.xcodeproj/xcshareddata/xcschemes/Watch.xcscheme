@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20838A072716E19F000ABC6B"
-               BuildableName = "WatchTesterApp WatchKit App.app"
-               BlueprintName = "WatchTesterApp WatchKit App"
+               BuildableName = "Watch.app"
+               BlueprintName = "Watch"
                ReferencedContainer = "container:WatchTesterApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,16 +46,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20838A282716E1A0000ABC6B"
-               BuildableName = "WatchTesterApp WatchKit AppTests.xctest"
-               BlueprintName = "WatchTesterApp WatchKit AppTests"
-               ReferencedContainer = "container:WatchTesterApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "20838A332716E1A0000ABC6B"
                BuildableName = "WatchTesterApp WatchKit AppUITests.xctest"
                BlueprintName = "WatchTesterApp WatchKit AppUITests"
@@ -79,8 +69,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20838A072716E19F000ABC6B"
-            BuildableName = "WatchTesterApp WatchKit App.app"
-            BlueprintName = "WatchTesterApp WatchKit App"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:WatchTesterApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -96,8 +86,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20838A072716E19F000ABC6B"
-            BuildableName = "WatchTesterApp WatchKit App.app"
-            BlueprintName = "WatchTesterApp WatchKit App"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:WatchTesterApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

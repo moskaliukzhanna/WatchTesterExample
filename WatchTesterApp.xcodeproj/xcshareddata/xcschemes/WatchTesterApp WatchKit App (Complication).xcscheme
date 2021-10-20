@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20838A072716E19F000ABC6B"
-               BuildableName = "WatchTesterApp WatchKit App.app"
-               BlueprintName = "WatchTesterApp WatchKit App"
+               BuildableName = "Watch.app"
+               BlueprintName = "Watch"
                ReferencedContainer = "container:WatchTesterApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,8 +60,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20838A072716E19F000ABC6B"
-            BuildableName = "WatchTesterApp WatchKit App.app"
-            BlueprintName = "WatchTesterApp WatchKit App"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:WatchTesterApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -78,8 +78,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20838A072716E19F000ABC6B"
-            BuildableName = "WatchTesterApp WatchKit App.app"
-            BlueprintName = "WatchTesterApp WatchKit App"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:WatchTesterApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
