@@ -39,7 +39,7 @@ GENERATE_JUNIT_REPORT=false
 #	exit;
 #fi
 
-#FLUTTER_BUILD_DIR=$(pwd)/build/ios
+MY_BUILD_DIR=$(pwd)/build
 
 # Get the running sim ID
 #
@@ -58,7 +58,7 @@ else
       echo "Application $BUNDLEID:"
   fi
   echo "Building for the device pair: $DEVICE_PAIR"
-#  echo "Build directory: $FLUTTER_BUILD_DIR"
+  echo "Build directory: $MY_BUILD_DIR"
 fi
 
 PHONE=$(echo "$DEVICE_PAIR" | grep 'Phone' | grep -oE '[A-Z0-9-]{36}')
@@ -82,22 +82,20 @@ xcrun simctl uninstall "$WATCH" "$BUNDLEID.watchkitapp"
 xcrun simctl uninstall "$PHONE" "$BUNDLEID"
 
 echo "Building app..."
-(											  \
-xcodebuild 												  \
-#-configuration Integration
- 									  \
--workspace WatchTesterApp.xcworkspace 							  \
--scheme "WatchTesterApp"
--destination "id=${PHONE}"     						  \
-#-destination "platform=iOS Simulator,id=${PHONE}"
+
+(xcodebuild                                    \
+-workspace WatchTesterApp.xcworkspace 	      \
+-scheme "WatchTesterApp"                          \
+-destination "platform=iOS Simulator,id=${PHONE}" \
+BUILD_DIR=$MY_BUILD_DIR                           \
 COMPILER_INDEX_STORE_ENABLE=NO | xcpretty)
 echo "Done"
 
 echo "Installing app..."
-#xcrun simctl install "$PHONE" "$FLUTTER_BUILD_DIR"/Integration-iphonesimulator/Runner.app
-#xcrun simctl install "$WATCH" ""$FLUTTER_BUILD_DIR"/Integration-iphonesimulator/Runner.app/"$WATCH_SCHEME"/SDK Sample App.app"
+xcrun simctl install "$PHONE" "build/Debug-iphoneos/WatchTesterApp.app"
+#xcrun simctl install "$WATCH" ""$MY_BUILD_DIR"/Debug-watchos/Watch.app"
 
-xcrun simctl launch $PHONE $BUNDLEID
+#xcrun simctl launch $PHONE $BUNDLEID
 #xcrun simctl launch $WATCH $BUNDLEID.watchkitapp
 
 # Wait for observatory URL in logs file and save the URL to enviroment variable
